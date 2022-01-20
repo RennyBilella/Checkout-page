@@ -122,3 +122,34 @@ color: gray;
     border-radius: 12px;
 }
 
+@media (max-width:440px) {
+    .container {
+        display: block; 
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    body{
+        margin: 2%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .slots {
+        width: 380px;
+    }
+
+    .card{
+        font-size: 11px;
+    }
+
+    .quantity{
+        margin-left: 40px;
+    }
+    .price{
+        font-size: 12px;
+    }
+
+    .card{
+        margin-left: 16px;
+    }
+}
